@@ -1,0 +1,19 @@
+{% extends "home-index.html" %}
+
+{% block content %}
+    <div class="bg bg-white">
+<p>Logged out!</p>  
+<br>
+<br>
+<br>
+<br>
+<br>
+<style>
+    p{
+        text-align: center;
+        font-size: 30px;
+    }
+</style>
+<p><a href="{% url 'login'%}">Click here to login again.</a></p>
+    </div>
+{% endblock %}
